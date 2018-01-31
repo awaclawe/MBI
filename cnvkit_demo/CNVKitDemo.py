@@ -5,6 +5,7 @@ DESCRIPTION
 """
 
 import sys
+import os
 
 from PyQt5.QtQml import QQmlApplicationEngine, qmlRegisterType
 from PyQt5.QtGui import QGuiApplication, QIcon
@@ -30,7 +31,7 @@ if __name__ == '__main__':
 
     engine.quit.connect(app.quit)
 
-    engine.load("qrc/main.qml")
+    engine.load(os.path.join(os.path.dirname(os.path.realpath(__file__)), "qrc", "main.qml"))
 
     win = engine.rootObjects()[0]
     win.show()

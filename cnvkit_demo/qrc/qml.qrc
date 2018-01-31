@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>RootContent.qml</file>
+        <file>StagePanel.qml</file>
+        <file>FilePickStageContent.qml</file>
+        <file>FileGenerationStageContent.qml</file>
+        <file>AntitargetStageContent.qml</file>
+
+        <file>CNVPipelineNode.qml</file>
+        <file>CNVPipelineArrow.qml</file>
+        <file>CNVPipeline.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+    </qresource>
+    <qresource prefix="/translations">
+    </qresource>
+    <qresource prefix="/fonts">
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+Sample BAM's:
+http://genome.crg.es/encode_RNA_dashboard/hg19/
+http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwRepliSeq
+BAM to BED:
+http://bedtools.readthedocs.io/en/latest/content/tools/bamtobed.html
